@@ -1,0 +1,8 @@
+.verify{
+  position: relative;
+}
+.verify .btn{
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
