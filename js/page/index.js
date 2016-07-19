@@ -5,7 +5,7 @@ var FormApp = React.createClass({
         <input className="form-control" type="text" placeholder="请输入用户名"/>
       </div>
       <div className="form-group col-xs-10 col-xs-offset-1">
-        <input className="form-control" type="text" placeholder="请输入密码"/>
+        <input className="form-control" type="password" placeholder="请输入密码"/>
       </div>
       <VerifySec/>
       <div className="col-xs-10 col-xs-offset-1">
