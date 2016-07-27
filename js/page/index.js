@@ -20,7 +20,7 @@ var VerifySec = React.createClass({
       switch: true
     }
   },
-  handleClick: function(){
+  clickh: function(){
     var count = 30,
       self = this;
     if(self.state.switch){
@@ -47,7 +47,7 @@ var VerifySec = React.createClass({
   render: function(){
     return <div className="form-group col-xs-10 col-xs-offset-1 verify">
       <input className="form-control" type="text" placeholder="请输入验证码"/>
-      <button className="btn btn-primary" type="button" onClick={this.handleClick} ref="btn">获取验证码</button>
+      <button className="btn btn-primary" type="button" onClick={this.clickh} ref="btn">获取验证码</button>
     </div>
   }
 });
