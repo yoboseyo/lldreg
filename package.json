@@ -9,8 +9,10 @@
     "html": "webpack --config webpack.html.config.js",
     "es6": "webpack --config webpack.es6.config.js",
     "react": "webpack --config webpack.react.config.js",
+    "todo": "webpack --config webpack.todo.config.js",
     "server_es6": "webpack-dev-server --port 3001 --hot --inline --config webpack.es6.config.js",
-    "server_react": "webpack-dev-server --port 3002 --hot --inline --config webpack.react.config.js"
+    "server_react": "webpack-dev-server --port 3002 --hot --inline --config webpack.react.config.js",
+    "server_todo": "webpack-dev-server --port 3003 --hot --inline --config webpack.todo.config.js"
   },
   "repository": {
     "type": "git",
